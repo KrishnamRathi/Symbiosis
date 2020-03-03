@@ -459,7 +459,7 @@ background-color: #212121;
     padding-top: 20em;
 }
 .banner-left-side{
-    background: url(../images/b1.jpg);
+    background: url("b1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;

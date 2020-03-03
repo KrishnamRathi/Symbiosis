@@ -21,13 +21,13 @@
     }
   </script>
   <!--booststrap-->
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
   <!--//booststrap end-->
   <!-- font-awesome icons -->
-  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/css/font-awesome.min.css" rel="stylesheet">
   <!-- //font-awesome icons -->
   <!--stylesheets-->
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"
+  <link href="static/css/style.css" rel='stylesheet' type='text/css' media="all">
   <!--//stylesheets-->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
@@ -65,7 +65,7 @@
             <a href="#service">My Profile</a>
           </li>
           <li>
-            <a href="login/login.html">Register</a>
+            <a href="/login">Register</a>
           </li>
           <li>
             <a href="#service">Contact Us</a>
@@ -115,7 +115,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6 ser-icon text-center my-3">
           <div class="grid-wthree-service">
-            <img src="images/ab1.jpg" alt="news image" class="img-fluid">
+            <img src="static/ab1.jpg" alt="news image" class="img-fluid">
             <div class="ser-text-wthree mt-3">
               <h4>
                 Vegatables
@@ -126,7 +126,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 ser-icon text-center my-3">
           <div class="grid-wthree-service">
-            <img src="images/ab2.jpg" alt="news image" class="img-fluid">
+            <img src="static/ab2.jpg" alt="news image" class="img-fluid">
             <div class="ser-text-wthree mt-3">
               <h4>
                 Fresh Fruits
@@ -137,7 +137,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 ser-icon text-center my-3">
           <div class="grid-wthree-service">
-            <img src="images/ab3.jpg" alt="news image" class="img-fluid">
+            <img src="static/ab3.jpg" alt="news image" class="img-fluid">
             <div class="ser-text-wthree mt-3">
               <h4>
                 Garden Tillage
@@ -148,7 +148,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 ser-icon text-center my-3">
           <div class="grid-wthree-service">
-            <img src="images/ab4.jpg" alt="news image" class="img-fluid">
+            <img src="static/ab4.jpg" alt="news image" class="img-fluid">
             <div class="ser-text-wthree mt-3">
               <h4>
                 Awesome Wheats
@@ -159,7 +159,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 ser-icon text-center my-3">
           <div class="grid-wthree-service">
-            <img src="images/ab1.jpg" alt="news image" class="img-fluid">
+            <img src="static/ab1.jpg" alt="news image" class="img-fluid">
             <div class="ser-text-wthree mt-3">
               <h4>
                 Garden Tillage
@@ -170,7 +170,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 ser-icon text-center my-3">
           <div class="grid-wthree-service">
-            <img src="images/ab2.jpg" alt="news image" class="img-fluid">
+            <img src="static/ab2.jpg" alt="news image" class="img-fluid">
             <div class="ser-text-wthree mt-3">
               <h4>
                 Agro Machinery
@@ -188,7 +188,7 @@
     <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
       <div class="row">
         <div class="col-lg-7">
-          <img src="images/bb4.jpg" alt="news image" class="img-fluid">
+          <img src="static/bb4.jpg" alt="news image" class="img-fluid">
         </div>
         <div class="col-lg-5 veg-list-text">
           <div class="row mb-2">
@@ -198,7 +198,7 @@
               <p>consectetuer adip sit amet</p>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 col-5 p-0">
-              <img src="images/v1.jpg" alt="news image" class="img-fluid">
+              <img src="static/v1.jpg" alt="news image" class="img-fluid">
             </div>
           </div>
           <div class="row mb-2">
@@ -208,7 +208,7 @@
               <p>consectetuer adip sit amet</p>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 col-5 p-0">
-              <img src="images/v2.jpg" alt="news image" class="img-fluid">
+              <img src="static/v2.jpg" alt="news image" class="img-fluid">
             </div>
           </div>
           <div class="row mb-2">
@@ -218,7 +218,7 @@
               <p>consectetuer adip sit amet</p>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 col-5 p-0">
-              <img src="images/v3.jpg" alt="news image" class="img-fluid">
+              <img src="static/v3.jpg" alt="news image" class="img-fluid">
             </div>
           </div>
           <div class="row">
@@ -228,7 +228,7 @@
               <p>consectetuer adip sit amet</p>
             </div>
             <div class="col-lg-5 col-md-5 col-sm-5 col-5 p-0">
-              <img src="images/v4.jpg" alt="news image" class="img-fluid">
+              <img src="static/v4.jpg" alt="news image" class="img-fluid">
             </div>
           </div>
         </div>
@@ -248,42 +248,42 @@
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid my-3">
           <div class="gallery-grids">
             <a href="#gal1">
-              <img src="images/g1.jpg" alt="news image" class="img-fluid">
+              <img src="static/g1.jpg" alt="news image" class="img-fluid">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid my-3">
           <div class="gallery-grids">
             <a href="#gal2">
-              <img src="images/bb2.jpg" alt="news image" class="img-fluid">
+              <img src="static/bb2.jpg" alt="news image" class="img-fluid">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid my-3">
           <div class="gallery-grids">
             <a href="#gal3">
-              <img src="images/bb3.jpg" alt="news image" class="img-fluid">
+              <img src="static/bb3.jpg" alt="news image" class="img-fluid">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid my-3">
           <div class="gallery-grids">
             <a href="#gal4">
-              <img src="images/g2.jpg" alt="news image" class="img-fluid">
+              <img src="static/g2.jpg" alt="news image" class="img-fluid">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid my-3">
           <div class="gallery-grids">
             <a href="#gal5">
-              <img src="images/g3.jpg" alt="news image" class="img-fluid">
+              <img src="static/g3.jpg" alt="news image" class="img-fluid">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6 gallery-img-grid my-3">
           <div class="gallery-grids">
             <a href="#gal6">
-              <img src="images/g4.jpg" alt="news image" class="img-fluid">
+              <img src="static/g4.jpg" alt="news image" class="img-fluid">
             </a>
           </div>
         </div>
@@ -291,7 +291,7 @@
       <!-- popup-->
       <div id="gal1" class="popup-effect">
         <div class="popup">
-          <img src="images/g1.jpg" alt="Popup Image" class="img-fluid">
+          <img src="static/g1.jpg" alt="Popup Image" class="img-fluid">
           <a class="close" href="#gallery">×</a>
         </div>
       </div>
@@ -299,7 +299,7 @@
       <!-- popup-->
       <div id="gal2" class="popup-effect">
         <div class="popup">
-          <img src="images/bb2.jpg" alt="Popup Image" class="img-fluid">
+          <img src="static/bb2.jpg" alt="Popup Image" class="img-fluid">
           <a class="close" href="#gallery">×</a>
         </div>
       </div>
@@ -307,7 +307,7 @@
       <!-- popup-->
       <div id="gal3" class="popup-effect">
         <div class="popup">
-          <img src="images/bb3.jpg" alt="Popup Image" class="img-fluid">
+          <img src="static/bb3.jpg" alt="Popup Image" class="img-fluid">
           <a class="close" href="#gallery">×</a>
         </div>
       </div>
@@ -315,7 +315,7 @@
       <!-- popup-->
       <div id="gal4" class="popup-effect">
         <div class="popup">
-          <img src="images/g2.jpg" alt="Popup Image" class="img-fluid">
+          <img src="static/g2.jpg" alt="Popup Image" class="img-fluid">
           <a class="close" href="#gallery">×</a>
         </div>
       </div>
@@ -323,7 +323,7 @@
       <!-- popup-->
       <div id="gal5" class="popup-effect">
         <div class="popup">
-          <img src="images/g3.jpg" alt="Popup Image" class="img-fluid">
+          <img src="static/g3.jpg" alt="Popup Image" class="img-fluid">
           <a class="close" href="#gallery">×</a>
         </div>
       </div>
@@ -331,7 +331,7 @@
       <!-- popup-->
       <div id="gal6" class="popup-effect">
         <div class="popup">
-          <img src="images/g4.jpg" alt="Popup Image" class="img-fluid">
+          <img src="static/g4.jpg" alt="Popup Image" class="img-fluid">
           <a class="close" href="#gallery">×</a>
         </div>
       </div>
@@ -350,7 +350,7 @@
       <div class="row">
         <div class="blog-wthree-color col-lg-4 position-relative my-3">
           <div class="w3ls-post-img">
-            <img src="images/bb2.jpg" class="img-fluid" alt="">
+            <img src="static/bb2.jpg" class="img-fluid" alt="">
             <div class="blog-info">
               <a href="#about">
                 <ul>
@@ -379,7 +379,7 @@
         </div>
         <div class="blog-wthree-color col-lg-4 position-relative my-3">
           <div class="w3ls-post-img">
-            <img src="images/bb3.jpg" class="img-fluid" alt="">
+            <img src="static/bb3.jpg" class="img-fluid" alt="">
             <div class="blog-info">
               <a href="#about">
                 <ul>
@@ -408,7 +408,7 @@
         </div>
         <div class="blog-wthree-color col-lg-4 position-relative my-3">
           <div class="w3ls-post-img">
-            <img src="images/g4.jpg" class="img-fluid" alt="">
+            <img src="static/g4.jpg" class="img-fluid" alt="">
             <div class="blog-info">
               <a href="#about">
                 <ul>
